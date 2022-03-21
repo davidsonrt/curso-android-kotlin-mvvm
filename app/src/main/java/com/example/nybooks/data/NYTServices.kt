@@ -9,7 +9,7 @@ interface NYTServices {
 
     @GET("lists.json")
     suspend fun getBooks(
-        @Query("api-key") apiKey: String = "dYvSDzxECNAYUvJ2btXR2CyNnbUwSTOs",
+        @Query("api-key") apiKey: String = "djwsUAztVEbR34AkMGQIbS0Swwei1njG",
         @Query("list") list: String = "hardcover-fiction"
     ): BookBodyResponse
 }
